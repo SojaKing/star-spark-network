@@ -23,8 +23,8 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <h3 className="text-2xl font-bold text-primary">TALENT</h3>
-              <span className="ml-2 text-sm font-light text-muted-foreground">Model Management</span>
+              <h3 className="text-2xl font-bold text-primary">VIBE</h3>
+              <span className="ml-2 text-sm font-light text-muted-foreground">Talent Agency</span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               Connecting extraordinary talent with world-class opportunities. 
@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © 2024 Talent Model Management. All rights reserved.
+              © 2024 Vibe Talent Agency. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm mt-4 md:mt-0">
               Crafted with excellence for exceptional talent.

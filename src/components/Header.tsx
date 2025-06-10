@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -20,8 +19,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary">TALENT</h1>
-            <span className="ml-2 text-sm font-light text-muted-foreground">Model Management</span>
+            <h1 className="text-2xl font-bold text-primary">VIBE</h1>
+            <span className="ml-2 text-sm font-light text-muted-foreground">Talent Agency</span>
           </div>
 
           {/* Desktop Navigation */}
