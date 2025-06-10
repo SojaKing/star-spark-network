@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Star, Eye } from 'lucide-react';
@@ -9,7 +8,7 @@ const TalentShowcase = () => {
       id: 1,
       name: "Alexandra Chen",
       category: "Fashion Model",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=400&h=600&fit=crop&crop=face",
       rating: 4.9,
       views: "2.1M",
       specialties: ["Editorial", "Runway", "Commercial"]
@@ -18,7 +17,7 @@ const TalentShowcase = () => {
       id: 2,
       name: "Marcus Rodriguez",
       category: "Actor",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face",
       rating: 4.8,
       views: "1.8M",
       specialties: ["Drama", "Action", "Commercial"]
@@ -27,7 +26,7 @@ const TalentShowcase = () => {
       id: 3,
       name: "Sofia Petrov",
       category: "Fashion Model",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=600&fit=crop&crop=face",
       rating: 4.9,
       views: "2.5M",
       specialties: ["High Fashion", "Beauty", "Luxury"]
@@ -36,7 +35,7 @@ const TalentShowcase = () => {
       id: 4,
       name: "James Thompson",
       category: "Fitness Model",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=600&fit=crop&crop=face",
       rating: 4.7,
       views: "1.3M",
       specialties: ["Fitness", "Athletic", "Lifestyle"]
@@ -45,7 +44,7 @@ const TalentShowcase = () => {
       id: 5,
       name: "Luna Kim",
       category: "Actor",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=600&fit=crop&crop=face",
       rating: 4.8,
       views: "1.9M",
       specialties: ["Indie", "Drama", "Voice Acting"]
@@ -54,7 +53,7 @@ const TalentShowcase = () => {
       id: 6,
       name: "Diego Santos",
       category: "Fashion Model",
-      image: "/placeholder.svg",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop&crop=face",
       rating: 4.9,
       views: "2.3M",
       specialties: ["Men's Fashion", "Editorial", "Lifestyle"]
