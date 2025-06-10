@@ -3,24 +3,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Mail, Clock } from 'lucide-react';
 
 const Contact = () => {
   const contactInfo = [
     {
-      icon: <Phone className="w-5 h-5" />,
-      title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"]
-    },
-    {
       icon: <Mail className="w-5 h-5" />,
       title: "Email",
       details: ["talent@modelmanagement.com", "casting@modelmanagement.com"]
-    },
-    {
-      icon: <MapPin className="w-5 h-5" />,
-      title: "Address",
-      details: ["123 Fashion Avenue", "New York, NY 10001"]
     },
     {
       icon: <Clock className="w-5 h-5" />,
